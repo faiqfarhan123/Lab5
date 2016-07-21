@@ -1,0 +1,16 @@
+Introduction:
+	I had to make a html file which has an object (egg) and we have to move it using arrow keys and jump using spacebar in the whole page.
+Approaches:
+	I used jquery animate. In which ASCII code of arrow keys is used. It then uses keydown function and checks every move and adds pixels in original position, to get the new position and moves it to the new position. It is done for every up, down, left and right.
+	
+	For jump i had to use keyup function, because keydown moves up and when it is released keyup occurs and moves object back to original position, resulting a jump.
+Run:
+	open html file in browser and use:
+		UP arrow key to move up
+		DOWN arrow key to move down
+		LEFT arrow key to move left
+		RIGHT arrow key to move right
+		and
+		SPACEBAR to Jump
+Link:
+	https://github.com/faiqfarhan123/Lab5

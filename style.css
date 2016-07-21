@@ -1,0 +1,15 @@
+img{
+	width :100px;
+    height :140px;
+}
+body {
+    background-image: url("images/grass.jpg");
+    overflow:hidden;
+}
+.egg{
+	top: 0;
+    left: 0;
+    position: relative;
+    height:100px;
+    width:100px;
+}
